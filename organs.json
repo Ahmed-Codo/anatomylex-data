@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "_note": "بيانات تجريبية للاختبار فقط - استبدلها بملف ناتج عن tools/docx_to_json.py وراجع المصطلحات الكردية.",
+  "systems": [
+    {
+      "id": "circulatory",
+      "names": { "ar": "الجهاز الدوري", "ku": "Pergala xwînê", "en": "Circulatory system", "fr": "Système circulatoire" }
+    },
+    {
+      "id": "respiratory",
+      "names": { "ar": "الجهاز التنفسي", "ku": "Pergala hilmê", "en": "Respiratory system", "fr": "Système respiratoire" }
+    },
+    {
+      "id": "digestive",
+      "names": { "ar": "الجهاز الهضمي", "ku": "Pergala helandinê", "en": "Digestive system", "fr": "Système digestif" }
+    }
+  ],
+  "organs": [
+    {
+      "id": "heart",
+      "system": "circulatory",
+      "names": { "ar": "القلب", "ku": "Dil", "en": "Heart", "fr": "Cœur" },
+      "location": "في منتصف الصدر، مائل قليلاً إلى اليسار، خلف عظمة القص.",
+      "function": "يضخ الدم إلى أنحاء الجسم عبر الأوعية الدموية.",
+      "image": "heart.png"
+    },
+    {
+      "id": "lungs",
+      "system": "respiratory",
+      "names": { "ar": "الرئتان", "ku": "Pişik", "en": "Lungs", "fr": "Poumons" },
+      "location": "في القفص الصدري على جانبي القلب.",
+      "function": "تبادل الغازات: إدخال الأكسجين وإخراج ثاني أكسيد الكربون.",
+      "image": "lungs.png"
+    },
+    {
+      "id": "stomach",
+      "system": "digestive",
+      "names": { "ar": "المعدة", "ku": "Mîde", "en": "Stomach", "fr": "Estomac" },
+      "location": "في الجزء العلوي الأيسر من البطن، تحت الحجاب الحاجز.",
+      "function": "تخزّن الطعام وتبدأ هضمه بالحمض والإنزيمات.",
+      "image": "stomach.png"
+    },
+    {
+      "id": "liver",
+      "system": "digestive",
+      "names": { "ar": "الكبد", "ku": "Kezeb", "en": "Liver", "fr": "Foie" },
+      "location": "في الجزء العلوي الأيمن من البطن، تحت الحجاب الحاجز.",
+      "function": "ينتج الصفراء ويعالج المواد الغذائية ويزيل السموم من الدم.",
+      "image": "liver.png"
+    },
+    {
+      "id": "pancreas",
+      "system": "digestive",
+      "names": { "ar": "البنكرياس", "ku": "Pankreas", "en": "Pancreas", "fr": "Pancréas" },
+      "location": "خلف المعدة، في أعلى البطن.",
+      "function": "يفرز إنزيمات هاضمة وهرمونات منها الإنسولين.",
+      "image": "pancreas.png"
+    },
+    {
+      "id": "small_intestine",
+      "system": "digestive",
+      "names": { "ar": "الأمعاء الدقيقة", "ku": "Rovîkên tenik", "en": "Small intestine", "fr": "Intestin grêle" },
+      "location": "في وسط البطن بين المعدة والأمعاء الغليظة.",
+      "function": "هضم الطعام وامتصاص معظم المواد الغذائية.",
+      "image": "small_intestine.png"
+    },
+    {
+      "id": "large_intestine",
+      "system": "digestive",
+      "names": { "ar": "الأمعاء الغليظة", "ku": "Rovîkên stûr", "en": "Large intestine", "fr": "Gros intestin" },
+      "location": "تحيط بالأمعاء الدقيقة على شكل إطار في البطن.",
+      "function": "امتصاص الماء والأملاح وتكوين الفضلات.",
+      "image": "large_intestine.png"
+    }
+  ]
+}
